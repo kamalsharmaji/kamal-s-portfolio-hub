@@ -3,7 +3,7 @@ import { GraduationCap, Calendar } from 'lucide-react';
 const education = [
   {
     degree: 'Bachelor of Computer Applications (BCA)',
-    institution: 'Sheoran Jain College, Kekri, Ajmer',
+    institution: 'Shree Jain College Kekri',
     year: '2024',
     description: 'Completed undergraduate degree with focus on computer science fundamentals, programming, and software development.',
   },
