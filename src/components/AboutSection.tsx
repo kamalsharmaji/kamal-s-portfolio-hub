@@ -75,7 +75,7 @@ const AboutSection = () => {
                   </div>
                   <div>
                     <h4 className="font-display text-xl font-bold text-foreground mb-1">
-                      2+ Years Experience
+                      6Month+ Experience
                     </h4>
                     <p className="text-muted-foreground">
                       Hands-on experience in frontend development with React.js and modern web technologies.

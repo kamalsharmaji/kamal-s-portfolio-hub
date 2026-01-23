@@ -4,7 +4,7 @@ const experiences = [
   {
     title: 'Frontend Web Developer',
     company: 'ATS Global Tech',
-    period: 'Oct 2023 – Present',
+    period: 'Oct 2023 – Oct 2025',
     description: [
       'Responsive UI development using React.js, HTML, CSS, Tailwind CSS',
       'Creating pixel-perfect UI from Figma/UI designs',
@@ -18,7 +18,7 @@ const experiences = [
   {
     title: 'Backend Developer',
     company: 'Pace Infotech',
-    period: 'Mar 2023 – Sep 2023',
+    period: 'Mar 2023 – Sep 2025',
     description: [
       'Basic C# and .NET Framework development',
       'CRUD operations using Entity Framework',
@@ -30,7 +30,7 @@ const experiences = [
   {
     title: 'Internship Training',
     company: 'Pace Infotech',
-    period: 'May 2022 – Feb 2023',
+    period: 'May 2024 – Feb 2025',
     description: [
       'HTML5, CSS3, JavaScript, React.js fundamentals',
       'Functional components & React hooks',
