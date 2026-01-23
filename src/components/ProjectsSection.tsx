@@ -7,6 +7,7 @@ const projects = [
     icon: Globe,
     tags: ['React.js', 'Tailwind CSS', 'Responsive'],
     status: 'Completed',
+    link: 'https://atsglobaltech.in/',
   },
   {
     title: 'HRMS – Human Resource Management',
@@ -14,6 +15,7 @@ const projects = [
     icon: Users,
     tags: ['React.js', 'UI/UX', 'Dashboard'],
     status: 'Completed',
+    link: null,
   },
   {
     title: 'HRMS – Hotel & Restaurant Management',
@@ -21,6 +23,7 @@ const projects = [
     icon: Building2,
     tags: ['React.js', 'Team Project', 'CRUD'],
     status: 'Completed',
+    link: 'https://hms-five-xi.vercel.app/',
   },
   {
     title: 'Carify – PDI ERP Model',
@@ -28,6 +31,7 @@ const projects = [
     icon: Car,
     tags: ['React.js', 'ERP', 'Tailwind CSS'],
     status: 'In Progress',
+    link: 'https://carify-p42v.vercel.app/dashboard/inspection',
   },
 ];
 
@@ -93,10 +97,21 @@ const ProjectsSection = () => {
               </div>
 
               {/* View Project Link */}
-              <div className="flex items-center gap-2 text-accent font-medium group-hover:gap-3 transition-all">
-                <span>View Details</span>
-                <ExternalLink size={18} />
-              </div>
+              {project.link ? (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-accent font-medium group-hover:gap-3 transition-all hover:text-accent/80"
+                >
+                  <span>View Details</span>
+                  <ExternalLink size={18} />
+                </a>
+              ) : (
+                <div className="flex items-center gap-2 text-muted-foreground font-medium">
+                  <span>Details Coming Soon</span>
+                </div>
+              )}
             </div>
           ))}
         </div>
