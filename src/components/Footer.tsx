@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Linkedin, Heart } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Heart, Github } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -63,6 +63,17 @@ const Footer = () => {
                 >
                   <Linkedin size={18} />
                   <span>LinkedIn Profile</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/kamalsharmaji"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-primary-foreground/70 hover:text-accent transition-colors"
+                >
+                  <Github size={18} />
+                  <span>GitHub Profile</span>
                 </a>
               </li>
             </ul>
